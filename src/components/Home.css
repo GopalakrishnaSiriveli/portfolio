@@ -44,16 +44,27 @@
     animation: float 5s infinite ease-in-out;
   }
   
-  .laptop {
-    background: url('https://codecondo.com/wp-content/uploads/2017/09/Become-a-Full-Stack-Developer.jpg') no-repeat center center/contain;
-    left: 1%;
-    top: 20%;
-  }
-  
-  .code {
-    background: url('https://dailyblogbeast.com/wp-content/uploads/2021/06/full-stack-web-developer-840x400.jpg') no-repeat center center/contain;
-    right: 1%;
-    bottom: 25%;
+@media (max-width:767px){
+    .laptop{
+        display:none;
+    }
+    .code{
+        display:none;
+    }
+ }
+  @media (min-width: 768px) {
+    .laptop {
+        background: url('https://codecondo.com/wp-content/uploads/2017/09/Become-a-Full-Stack-Developer.jpg') no-repeat center center/contain;
+        left: 0%;
+        top: 20%;
+        
+      }
+      
+      .code {
+        background: url('https://dailyblogbeast.com/wp-content/uploads/2021/06/full-stack-web-developer-840x400.jpg') no-repeat center center/contain;
+        right: 0%;
+        bottom: 25%;
+      }
   }
   
   @keyframes float {
