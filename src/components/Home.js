@@ -16,16 +16,7 @@ const Home = () => {
         <h1>Hello, I'm Gopalakrishna Siriveli</h1>
         <p> Hi there! Welcome to my portfolio website.I'm  a passionate and dedicated full-stack web developer with a knack for creating dynamic and responsive web applications. With a strong foundation in both frontend and backend technologies, I enjoy the process of turning complex problems into simple, beautiful, and intuitive solutions.</p>
         <p>Here you can find my resume, projects, and ways to contact me. Feel free to explore!</p>
-        <div className='item'>
-        <ul><h3>SKILLSET</h3>
-            <li>Frontend: React, HTML5, CSS3, JavaScript, Bootstrap, Material-UI</li>
-            <li>
-            Backend: Node.js, Express.js, RESTful APIs, SQLite
-            </li>
-            <li>Tools: Git, Docker, Postman, VS Code, Webpack</li>
-            <li>Deployment: Heroku, Netlify, Vercel</li>
-        </ul>
-        </div>
+        
         <h3>My Journey</h3>
         <p>My journey into web development started when I discovered my love for coding while started full stack web development course at NxtWave CCBP Technolgies, Since then, I've been on a continuous path of learning and growth, honing my skills and expanding my knowledge in various aspects of web development.</p>
         <h3>Personal Traits</h3>
