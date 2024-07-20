@@ -14,7 +14,7 @@ const Home = () => {
       <h2 className="color-changing-title">Full Stack Web Developer</h2>
       
         <h1>Hello, I'm Gopalakrishna Siriveli</h1>
-        <p> Hi there! Welcome to my portfolio website.I'm  a passionate and dedicated full-stack web developer with a knack for creating dynamic and responsive web applications. With a strong foundation in both frontend and backend technologies, I enjoy the process of turning complex problems into simple, beautiful, and intuitive solutions.</p>
+        <p> Hi there! Welcome to my portfolio website.I'm  a passionate and dedicated full-stack web developer with a knack for creating dynamic and responsive web applications. With a strong foundation in both frontend and backend technologies.</p>
         <p>Here you can find my resume, projects, and ways to contact me. Feel free to explore!</p>
         
         <h3>My Journey</h3>
