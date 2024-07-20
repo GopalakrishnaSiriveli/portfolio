@@ -46,13 +46,13 @@
   
   .laptop {
     background: url('https://codecondo.com/wp-content/uploads/2017/09/Become-a-Full-Stack-Developer.jpg') no-repeat center center/contain;
-    left: 5%;
+    left: 1%;
     top: 20%;
   }
   
   .code {
     background: url('https://dailyblogbeast.com/wp-content/uploads/2021/06/full-stack-web-developer-840x400.jpg') no-repeat center center/contain;
-    right: 5%;
+    right: 1%;
     bottom: 25%;
   }
   
