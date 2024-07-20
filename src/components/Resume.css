@@ -1,0 +1,21 @@
+.resume {
+    padding: 20px;
+    background: linear-gradient(to bottom, lightskyblue, white);
+    border: 1px solid lightskyblue;
+  }
+  
+  .resume h1 {
+    color: #333;
+  }
+  
+  .resume p {
+    font-size: 1.2em;
+  }
+  .list{
+    color:black;
+    font-weight:500;
+    font-size:20px;
+  }
+  h3{
+    color:black;
+  }

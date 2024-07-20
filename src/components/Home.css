@@ -1,0 +1,94 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: start;
+    background: linear-gradient(to bottom, lightskyblue, white);
+    border: 1px solid lightskyblue;
+    position: relative;
+    overflow:scroll;
+    padding:20px;
+  }
+  
+  .intro {
+    max-width: 600px;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .profile{
+    border-radius: 5%;
+    width: 350px;
+    height: 350px;
+    
+    margin-bottom: 20px;
+  }
+  
+  .animation {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    overflow: hidden;
+  }
+  
+  .laptop, .code {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgba(0, 0, 0, 0.1);
+    animation: float 5s infinite ease-in-out;
+  }
+  
+  .laptop {
+    background: url('https://codecondo.com/wp-content/uploads/2017/09/Become-a-Full-Stack-Developer.jpg') no-repeat center center/contain;
+    left: 5%;
+    top: 20%;
+  }
+  
+  .code {
+    background: url('https://dailyblogbeast.com/wp-content/uploads/2021/06/full-stack-web-developer-840x400.jpg') no-repeat center center/contain;
+    right: 5%;
+    bottom: 25%;
+  }
+  
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  
+  .name{
+    color:black;
+  }
+  .color-changing-title {
+    font-size: 2em;
+    animation: colorChange 2s infinite;
+  }
+  
+  @keyframes colorChange {
+    0% { color: red; }
+    10% { color: orange; }
+    20% { color: yellow; }
+    30% { color: green; }
+    40% { color: blue; }
+    50% { color: purple; }
+    60% {color:brown;}
+    70% {color:chartreuse;}
+    80% {color:chocolate;}
+    90% {color:darkcyan;}
+    100% {color:darkred;}
+  }
+  .item{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+  }

@@ -1,0 +1,27 @@
+
+
+.contact-icons {
+    display: flex;
+    gap: 20px;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    background: linear-gradient(to bottom, lightskyblue, white);
+    border: 2px solid black;
+    border-radius:10px;
+  }
+  
+  .contact-icons a {
+    text-decoration: none;
+    margin-top:10px;
+    color: inherit; /* Use this to keep the original color of the icons */
+  }
+  .social{
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    gap:20px;
+    align-items:flex-start;
+  }
